@@ -1,1 +1,6 @@
-docker run -d \  --name libretv \  --restart unless-stopped \  -p 8899:8080 \  -e PASSWORD=your_password \  bestzwei/libretv:latest
+docker run -d 
+--name libretv
+--restart unless-stopped 
+ -p 8899:8080 
+ -e PASSWORD=your_password 
+ bestzwei/libretv:latest
