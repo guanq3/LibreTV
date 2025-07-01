@@ -1,11 +1,1 @@
-.github/
-node_modules/
-netlify*
-.gitignore
-.dockerignore
-.env*
-nodemon.json
-vercel.json
-Dockerfile*
-docker-compose*.yml
-.docker/
+docker run -d \  --name libretv \  --restart unless-stopped \  -p 8899:8080 \  -e PASSWORD=your_password \  bestzwei/libretv:latest
